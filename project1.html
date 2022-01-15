@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="project1css.css" rel="stylesheet">
+    <link href="fontawesome/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cats">
+    <h1>Tell me about your cat
+    <i class="fas fa-cat"></i>
+    </h1>
+    <form>
+    <fieldset>
+    <legend>Contact info</legend>
+    <label for="name">Your name:</label><input type="text" id="name" name="name">
+    <label for="phone">Your phone number:</label><input type="tel" id="phone" name="phone"placeholder="phone number here">
+    <label for="email">Your email here:</label><input type="email" id="email" name="email">
+    </fieldset>
+    <fieldset>
+    <legend> About your cat</legend>
+    <label for="date">When did you get your cat?</label><input type="date" id="date" name="date">
+    <label for="age">How old is your cat? </label><input type="number" id="age" min="1" max="30" name="date">
+    <label for="name">What is your cats name</label><input type="text" id="name" name="name">
+    <p>What type of hair does your cat have?</p>
+    <label>
+        <input type="radio" name="hair" value="long-hair">Long-hair
+    </label>
+    <label>
+        <input type="radio" name="hair" value="short-hair">Short-hair
+    </label>
+    <label>
+        <input type="radio" name="hair" value="hairless">hairless
+    </label>
+
+    <label for="description"> Describe your cat! </label>
+    <select id="description">
+        <option selected>Select one</option>
+        <option value="Energetic">Energetic</option>
+        <option value="Lethargic">Lethargic</option>
+        <option value="Stinky">Stinky</option>
+    </select>
+
+    <label for="comments">Tell me a fun fact about your cat!</label>
+    <textarea id="comments" name="comments"placeholder="I'm sure your cat is great!"></textarea>
+    <label>
+        <input id="subscribe" type="checkbox" value="subscribe" checked> Check this to be e-mailed cat facts! </label>
+
+    </fieldset>
+
+    <button type="submit">Submit</button>
+			</form>			
+
+    </form> 
+</body>
+</html>

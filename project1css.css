@@ -1,0 +1,76 @@
+label {
+    display:block;
+    margin: 0.5rem;
+}
+h1 {
+    border:3px solid orange;
+    background: white;
+    border-radius: 10px;
+    color:lightsalmon;
+    width:42%;
+    margin-left: 1rem;
+    font-family: 'Architects Daughter', cursive;
+    
+    
+}
+body {
+    width:50%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url(pusheen2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    }
+
+fieldset {
+    margin:1rem;
+    background-color:#ffc87a;
+    border: 3px solid black;
+    border-radius:15px;
+    
+}
+
+legend {
+    font-weight:bold;
+    font-size:1.3rem; 
+    margin-top: 1.5rem;
+    margin-bottom:1rem;
+    border: 3px solid black;
+    background-color: white;
+    border-radius:10px;
+    
+    
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea, select
+{
+    width: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0 1rem;
+    border-radius: 10px
+
+}
+
+p, [for="description"] {
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+
+}
+
+button {
+    padding:0.5rem;
+    background-color:lavender;
+    border-radius:8px;
+    margin-left: 1rem;
+}
+
+button:hover {
+    background-color:white;
+    color:darkblue;
+
+}
+
